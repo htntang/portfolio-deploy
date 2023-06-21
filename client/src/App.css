@@ -1,6 +1,7 @@
-*{
-  margin: 0 auto;
-  text-align: center;
+* {
+  width:100vh;
+  margin:0 auto;
+  text-align:center;
   background-color:#F8ECEC;
   color:#DB2D2D;
   font-family:'Poppins', sans-serif;

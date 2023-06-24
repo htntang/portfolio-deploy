@@ -18,6 +18,8 @@ export default function Projects(){
                         <Link to="https://github.com/htntang" target="_blank"><button className="cv">Github</button></Link>
                 </div>
 
+                <hr />
+
                 <div className="projects">
                     <h2 className="projects">StriveOpp - Current (2023)</h2>
                     <img className="projects" src="https://i.imgur.com/jdh9G07.png"/>
@@ -26,6 +28,8 @@ export default function Projects(){
                         <Link to="/" target="_blank"><button className="cv">Website</button></Link>
                         <Link to="https://github.com/htntang" target="_blank"><button className="cv">Github</button></Link>
                 </div>
+
+                <hr />
                 
                 <div className="projects">
                 <h2 className="projects">Every Child Plays (2023)</h2>
@@ -36,6 +40,8 @@ export default function Projects(){
                     <Link to="https://github.com/htntang" target="_blank"><button className="cv">Github</button></Link>
                 </div>
 
+                <hr />
+
                 <div className="projects">
                 <h2 className="projects">Etymolo-Tree (2023)</h2>
                 <img className="projects" src="https://i.imgur.com/uflALRx.png"/>
@@ -45,8 +51,11 @@ export default function Projects(){
                     <Link to="https://github.com/htntang" target="_blank"><button className="cv">Github</button></Link>
                 </div>
 
+                <hr />
+
 {/* Personal Projects*/}
         <h1 className="projects">personal projects</h1>
+
             <div className="projects">
                 <h2 className="projects">
                     perfume directory (2023)
@@ -57,6 +66,8 @@ export default function Projects(){
                     <Link to="https://github.com/htntang" target="_blank"><button className="cv">Github</button></Link>
             </div>
 
+            <hr />
+
             <div className="projects">
                 <h2 className="projects">
                     swe career resources (2023)</h2>
@@ -66,6 +77,8 @@ export default function Projects(){
                     <Link to="https://github.com/htntang" target="_blank"><button className="cv">Github</button></Link>
             </div>
 
+            <hr />
+
             <div className="projects">
                  <h2 className="projects">
                     annual ballon d'or top 3 (2023)</h2>
@@ -74,6 +87,9 @@ export default function Projects(){
                     <Link to="/" target="_blank"><button className="cv">Website</button></Link>
                     <Link to="https://github.com/htntang" target="_blank"><button className="cv">Github</button></Link>
             </div>
+
+            <hr />
+
         </div>
         </>
     )

@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 export default function AboutMe(){
     return(
         <div className="aboutme">
+
+            <div className="column"></div>
+            <div className="column"></div>      
+
             <div className="column">
                 <div className="row">
                     <h1 className="aboutme">hello! my name is Han</h1>
@@ -27,7 +31,8 @@ export default function AboutMe(){
                         <Link to="https://www.linkedin.com/in/htntang/" target="_blank"><button className="aboutme">LinkedIn</button></Link>
                     </div>
                 </div>
+
+            </div>
         </div>
-    </div>
     )
 }

@@ -23,7 +23,7 @@ export default function Skills(){
                 <span class="tag tag-digitalmarketing">Digital Marketing</span>
                 <span class="tag tag-branddevelopment">Brand Development</span>
                 <span class="tag tag-campaignmanagement">Campaign Management</span>
-                <span class="tag tag-seo">SEO (Search Engine Optimization</span>
+                <span class="tag tag-seo">SEO (Search Engine Optimization)</span>
             </main>
         </div>
         </>

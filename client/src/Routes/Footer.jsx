@@ -11,11 +11,11 @@ export default function Footer() {
        <div class="verticalLine" />
 
         <div class="column">
-          <a href="/">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/htntang/" target="_blank">LinkedIn</a>
           <br />
-          <a href="/">GitHub</a>
+          <a href="https://github.com/htntang" target="_blank">GitHub</a>
           <br />
-          <a href="/">Tiktok</a>
+          <a href="https://www.tiktok.com/@theperfumemenagerie" target="_blank">Tiktok</a>
           <br />
           <a href="/">Instagram</a>
         </div>

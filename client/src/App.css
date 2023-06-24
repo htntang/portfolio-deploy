@@ -190,8 +190,35 @@ button.aboutme:hover {
 }
 
 /* Projects */
+div.projects{
+  text-align: center;
+}
+
 h1.projects{
   margin-top:40px;
+}
+
+h2.projects{
+  text-align: center;
+  padding: 0; 
+  margin-top: 20px;
+}
+
+h6.projects{
+  text-align: center;
+  font-size:14px;
+  padding: 0; 
+  margin:0;
+}
+
+p.projects{
+  font-size:smaller;
+  width:55%;
+}
+
+img.projects{
+  width:20%;
+  margin-top:20px;
 }
 
 button.cv{
@@ -216,8 +243,42 @@ button.cv:hover {
   border: 1px solid transparent;
 }
 
-/* Skills */
+
+
+/* Education */
+h2.education{
+  text-align: center;
+  padding: 0; 
+  margin-top: 20px;
+}
+
+h5.education{
+  text-align: center;
+  padding:0;
+  margin:0;
+}
+
+h6.education{
+  text-align: center;
+  font-style: italic;
+  padding: 0; 
+  margin:0;
+}
 
 /* Experience */
+
+h2.experience{
+  text-align: center;
+  padding: 0; 
+  margin-top: 20px;
+  font-weight:bolder;
+}
+
+h6.experience{
+  text-align: center;
+  font-style: italic;
+  padding: 0; 
+  margin:0;
+}
 
 

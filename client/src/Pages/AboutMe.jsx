@@ -4,14 +4,24 @@ import { Link } from 'react-router-dom';
 export default function AboutMe(){
     return(
         <div className="aboutme">
-
-            <div className="column"></div>
-            <div className="column"></div>      
+            <div className="row">
+                <div className="column">
+                    <img 
+                        src="https://i.imgur.com/709rwAU.png" 
+                        className="aboutme"
+                    />
+                </div>
 
             <div className="column">
+                <div className="aboutme-blurb">
+
                 <div className="row">
                     <h1 className="aboutme">hello! my name is Han</h1>
                 </div>
+
+                
+                <h4 className="aboutme">full stack developer | marketing strategist | content creator</h4>
+            
 
                 <div className="row">
                     <p className="aboutme">
@@ -31,7 +41,8 @@ export default function AboutMe(){
                         <Link to="https://www.linkedin.com/in/htntang/" target="_blank"><button className="aboutme">LinkedIn</button></Link>
                     </div>
                 </div>
-
+            </div>
+            </div>
             </div>
         </div>
     )

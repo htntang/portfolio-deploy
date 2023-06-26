@@ -153,8 +153,14 @@ div.aboutme{
   display:flex;
   box-sizing: border-box;
   text-align: center;
-  margin-right:200px;
+  margin-right:100px;
   margin-bottom:50px;
+}
+
+img.aboutme{
+  left:0;
+  width:90%;
+  margin:0 auto;
 }
 
 h1.aboutme{
@@ -194,13 +200,14 @@ div.projects{
 }
 
 h1.projects{
+  text-align: center;
   margin-top:40px;
 }
 
 h2.projects{
   text-align: center;
   padding: 0; 
-  margin-top: 20px;
+  margin-top:20px;
 }
 
 h6.projects{
@@ -211,13 +218,20 @@ h6.projects{
 }
 
 p.projects{
+  text-align: center;
   font-size:smaller;
   width:55%;
 }
 
+div.projects-techstack{
+  text-align:center;
+}
+
 img.projects{
+  display:block;
   width:25%;
-  margin:10px 0 10px 0;
+  float:left;
+  align-items:center; 
 }
 
 button.cv{
@@ -236,13 +250,17 @@ button.cv{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  text-align: center;
 }
 
 button.cv:hover {
   border: 1px solid transparent;
 }
 
-
+div.aboutme-blurb{
+  margin-top:120px;
+  margin-left:20px;
+}
 
 /* Education */
 div.education{

@@ -5,7 +5,7 @@ export default function Skills(){
         <>
         <div className="column">
             <h1>skills</h1>
-            <main>
+            <main className="skills">
                 <span class="tag tag-javascript">JavaScript</span>
                 <span class="tag tag-typescript">TypeScript</span>
                 <span class="tag tag-html">HTML / CSS</span>
@@ -24,7 +24,6 @@ export default function Skills(){
                 <span class="tag tag-branddevelopment">Brand Development</span>
                 <span class="tag tag-campaignmanagement">Campaign Management</span>
                 <span class="tag tag-seo">SEO (Search Engine Optimization)</span>
-                <span class="tag tag-wordpress">TypeSense</span>
             </main>
         </div>
         </>

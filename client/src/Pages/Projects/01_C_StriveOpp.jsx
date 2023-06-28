@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import '/Users/maryofmagdala/broccolibeef/personal/portfolio-deploy/client/src/Pages/Skills.css'
 
 export default function StriveOpp(){
     return(
@@ -14,18 +15,21 @@ export default function StriveOpp(){
                     <b>Tech Stack Used</b>:
                 </h6>
 
-                <span class="tag tag-mongodb">MongoDB</span>
-                <span class="tag tag-express">Express.JS</span>
-                <span class="tag tag-rxjs">React.JS</span>
-                <span class="tag tag-node">Node.JS</span>
-                <span class="tag tag-html">HTML / CSS</span>
-                <span class="tag tag-googlecloud">MUI Libraries</span>
-                <span class="tag tag-next">Next.JS</span>
-                <span class="tag tag-javascript">JavaScript</span>                <span class="tag tag-googlecloud">Google Cloud Platform</span>
-                <span class="tag tag-firebase">Firebase</span>
-                <span class="tag tag-flutter">Flutter</span>
-                <span class="tag tag-wordpress">TypeSense</span>
-                <span class="tag tag-python">API / Web-Scraping</span>
+                <div className="skills-tags">
+                    <span class="tag tag-mongodb">MongoDB</span>
+                    <span class="tag tag-express">Express.JS</span>
+                    <span class="tag tag-rxjs">React.JS</span>
+                    <span class="tag tag-node">Node.JS</span>
+                    <span class="tag tag-html">HTML / CSS</span>
+                    <span class="tag tag-googlecloud">MUI Libraries</span>
+                    <span class="tag tag-next">Next.JS</span>
+                    <span class="tag tag-javascript">JavaScript</span>                
+                    <span class="tag tag-googlecloud">Google Cloud Platform</span>
+                    <span class="tag tag-firebase">Firebase</span>
+                    <span class="tag tag-flutter">Flutter</span>
+                    <span class="tag tag-wordpress">TypeSense</span>
+                    <span class="tag tag-python">API / Web-Scraping</span>
+                </div>
 
             <br />
 

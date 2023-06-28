@@ -1,0 +1,38 @@
+.Iam{
+    padding:1em 2.5em;
+    font: normal 24px/40px "Montserrat", sans-serif;
+}
+
+.Iam p{
+    height:40px;
+    float:left;
+    margin-right: 0.3em;
+    font-size:30px;
+}
+
+.Iam b{
+    float:left;
+    overflow:hidden;
+    position:relative;
+    height:40px;
+}
+
+.Iam .innerIam {
+    display: inline-block;
+    color: #e74c3c;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    -webkit-animation: move 8s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-delay:1s;
+}
+
+@-webkit-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}

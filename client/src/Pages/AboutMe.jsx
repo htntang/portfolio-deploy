@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-
+import AboutMeRolodex from './AboutMe/AboutMeRolodex';
+ 
 
 export default function AboutMe(){
     return(
@@ -18,11 +19,12 @@ export default function AboutMe(){
                 <div className="row">
                     <h1 className="aboutme">hello! my name is Han</h1>
                 </div>
+                <br />
 
-                
-                <h4 className="aboutme">full stack developer | marketing strategist | content creator</h4>
+                <div className="row">
+                    <AboutMeRolodex />
+                </div>
             
-
                 <div className="row">
                     <p className="aboutme">
                         A full stack developer with an eye for detail and design, UX/UI; and a front-end focus, I am an
@@ -41,6 +43,8 @@ export default function AboutMe(){
                         <Link to="https://www.linkedin.com/in/htntang/" target="_blank"><button className="aboutme">LinkedIn</button></Link>
                     </div>
                 </div>
+
+                
             </div>
             </div>
             </div>

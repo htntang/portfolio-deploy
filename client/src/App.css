@@ -11,6 +11,7 @@
 
 body{
   box-sizing:border-box;
+  margin:0 auto;
 }
 
 /* Header */
@@ -149,27 +150,25 @@ div.hp_section{
 
 /* About Me */
 
+h1.aboutme{
+  font-size:40px;
+  margin:0 auto;
+}
+
 div.aboutme{
   display:flex;
   box-sizing: border-box;
   text-align: center;
-  margin-right:100px;
   margin-bottom:50px;
 }
 
 img.aboutme{
-  left:0;
-  width:90%;
-  margin:0 auto;
-}
-
-h1.aboutme{
-  padding-bottom:10px;
-  font-size:32px;
+  width:65%;
+  margin-right:250px;
 }
 
 p.aboutme{
-  font-size:0.8rem;
+  font-size:1.0rem;
 }
 
 button.aboutme{
@@ -200,7 +199,8 @@ div.projects{
 }
 
 h1.projects{
-  text-align: center;
+  margin-top:30px;
+  text-align: left;
 }
 
 h2.projects{
@@ -227,8 +227,8 @@ div.projects-techstack{
 
 img.projects{
   display:block;
-  width:25%;
-  margin:0 auto;
+  width:18%;
+  margin-top:50px;
 }
 
 button.cv{
@@ -254,10 +254,7 @@ button.cv:hover {
   border: 1px solid transparent;
 }
 
-div.aboutme-blurb{
-  margin-top:120px;
-  margin-left:20px;
-}
+
 
 /* Education */
 div.education{

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import '/Users/maryofmagdala/broccolibeef/personal/portfolio-deploy/client/src/Pages/Skills.css'
 
 export default function EveryChildPlays(){
     return(
@@ -15,14 +16,15 @@ export default function EveryChildPlays(){
                 <h6 className="projects">
                     <b>Tech Stack Used</b>:
                 </h6>
-
-                <span class="tag tag-mongodb">MongoDB</span>
-                <span class="tag tag-express">Express.JS</span>
-                <span class="tag tag-rxjs">React.JS</span>
-                <span class="tag tag-node">Node.JS</span>
-                <span class="tag tag-javascript">JavaScript</span>
-                <span class="tag tag-html">HTML / CSS</span>
-                <span class="tag tag-googlecloud">MUI Libraries</span>
+                <div className="skills-tags">
+                    <span class="tag tag-mongodb">MongoDB</span>
+                    <span class="tag tag-express">Express.JS</span>
+                    <span class="tag tag-rxjs">React.JS</span>
+                    <span class="tag tag-node">Node.JS</span>
+                    <span class="tag tag-javascript">JavaScript</span>
+                    <span class="tag tag-html">HTML / CSS</span>
+                    <span class="tag tag-googlecloud">MUI Libraries</span>
+                </div>
 
                 <br />
 

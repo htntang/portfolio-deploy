@@ -1,0 +1,63 @@
+*{
+    font-family:'Poppins', sans-serif;
+}
+
+.solarsystem{
+    text-align:center;
+    margin: 20px auto;
+}
+
+@keyframes rotation {
+    from {
+          transform: rotate(0deg)
+                     translate(var(--translate))
+                     rotate(0deg);
+      }
+      to {
+          transform: rotate(360deg)
+                     translate(var(--translate)) 
+                     rotate(-360deg);
+      }
+  }
+
+  #mercury {
+    --translate:-55px;
+    animation: rotation 4s linear infinite;
+  }
+
+  #mars {
+     --translate: -75px;
+    animation: rotation 5s -1s linear infinite;
+  }
+
+  #saturn {
+     --translate: -95px;
+    animation: rotation 8s -3s linear infinite;
+  }
+
+  #orbit1 {
+    stroke: black;
+    stroke-width: 1;
+    stroke-linecap: butt;
+    stroke-dasharray: 0;
+    height:55px;
+    width:55px;
+  }
+
+  #orbit2 {
+    stroke: black;
+    stroke-width: 1;
+    stroke-linecap: butt;
+    stroke-dasharray: 0;
+    height:75px;
+    width:75px;
+  }
+
+  #orbit3 {
+    stroke: black;
+    stroke-width: 1;
+    stroke-linecap: butt;
+    stroke-dasharray: 0;
+    height:95px;
+    width:95px;
+  }

@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom';
+import AboutMeSolarSystem from './AboutMe-Beta';
 import AboutMeRolodex from './AboutMe/AboutMeRolodex';
  
 
 export default function AboutMe(){
     return(
         <div className="aboutme">
-            <div className="row">
+            <AboutMeSolarSystem />
+
+            {/* <div className="row">
                 <div className="column">
                     <img 
                         src="https://i.imgur.com/709rwAU.png" 
@@ -47,7 +50,7 @@ export default function AboutMe(){
                 
             </div>
             </div>
-            </div>
+            </div> */}
         </div>
     )
 }
